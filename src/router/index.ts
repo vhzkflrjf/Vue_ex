@@ -66,6 +66,17 @@ const routes: Array<RouteRecordRaw> = [
         /* webpackChunkName: "about" */ "../components/DataBindingHtml.vue"
       ),
   },
+  {
+    path: "/DataBindingInputText",
+    name: "DataBindingInputText",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/DataBindingInputText.vue"
+      ),
+  },
 ];
 
 const router = createRouter({

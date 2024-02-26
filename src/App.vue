@@ -7,6 +7,7 @@
     <router-link to="/GoogleOpenlayerView">GoogleOpenlayerView</router-link> |
     <router-link to="/DataBindingView">DataBindingView</router-link> |
     <router-link to="/DataBindingViewHtml">DataBindingViewHtml</router-link> |
+    <router-link to="/DataBindingInputText">DataBindingInputText</router-link> |
   </nav>
   <router-view />
 </template>
