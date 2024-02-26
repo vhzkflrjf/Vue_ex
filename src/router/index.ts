@@ -25,7 +25,6 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/FirstView.vue"),
-    // component: AboutView,
   },
   {
     path: "/OpenlayerView",
@@ -35,7 +34,6 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/OpenlayerView.vue"),
-    // component: AboutView,
   },
   {
     path: "/GoogleOpenlayerView",
@@ -47,7 +45,15 @@ const routes: Array<RouteRecordRaw> = [
       import(
         /* webpackChunkName: "about" */ "../views/GoogleOpenlayerView.vue"
       ),
-    // component: AboutView,
+  },
+  {
+    path: "/DataBindingView",
+    name: "DataBindingView",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/DataBinding.vue"),
   },
 ];
 

@@ -4,7 +4,8 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/first">First</router-link> |
     <router-link to="/OpenlayerView">OpenlayerView</router-link> |
-    <router-link to="/GoogleOpenlayerView">GoogleOpenlayerView</router-link>
+    <router-link to="/GoogleOpenlayerView">GoogleOpenlayerView</router-link> |
+    <router-link to="/DataBindingView">DataBindingView</router-link> |
   </nav>
   <router-view />
 </template>
